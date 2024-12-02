@@ -117,7 +117,7 @@ The Lead section is pretty straightforward, it contains an h1 for your name and 
 If you want your resume to automatically download when the button is clicked instead of opening up in another tab (the default behaviour), add the following code (Thanks to jkfran for the suggestion) in the lead:
 
 ```HTML
-<a href="path/to/resume.pdf" download="resume.pdf" class="btn-rounded-white">Download Resume</a>
+<a href="images/resume.pdf" download="resume.pdf" class="btn-rounded-white">Download Resume</a>
 ```
 
 The href attribute points to where your resume is stored and the download attribute is what triggers the download / provides the name the file will be downloaded as when the user clicks the button (In this case, it will download as resume.pdf).
