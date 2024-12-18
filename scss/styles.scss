@@ -108,7 +108,9 @@ $text: #74808a;
 }
 
 body {
-    font-family: 'Computer Modern', sans-serif, italic, oblique;
+    font-family: 'Computer Modern', sans-serif;
+    font-weight: bold;
+    font-style: italic, oblique;
     font-size: 16px;
 
     &.active {
